@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="Menu.html">Menu</a>
+    <a href="ContactUs.html">Contact</a>
+    <a href="About.html">About </a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+   <div id="container1">
+<div>
+    <h1 style="font-size: 80px;color: rgb(204, 149, 78);text-align: center;"  ><b>Filly's Bakery</b><br/>
+    Shop</h1>
+    <p style="font-size: 40px;color: black;">Bakery products using local ingredients to accompany your meal time</p><br>
+</div>
+<div>
+    <img width="1000px" src="how-to-open-a-bakery.png" alt="">
+</div>
+   </div>
+</body>
+</html>
